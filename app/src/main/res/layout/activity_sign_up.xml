@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@color/colorPrimary"
+    tools:context="com.abc.pprat.locator.SignUpActivity">
+
+
+
+    <ImageView
+        android:id="@+id/ivHomeLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/llsignup"
+        android:layout_below="@id/ivHomeLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/tietFullNameS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:maxLines="1"
+            android:inputType="textCapSentences"
+            android:background="@drawable/login_edittext"
+           />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietEmails"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:background="@drawable/login_edittext"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+           />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tietPasswords"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="@drawable/login_edittext"
+            android:maxLines="1"
+            android:inputType="textPassword"
+          />
+
+
+      </LinearLayout>
+
+
+    <CheckBox
+        android:layout_marginTop="3dp"
+        android:id="@+id/cbTC"
+        android:layout_below="@id/llsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvterms"
+        android:layout_gravity="top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/terms"
+        android:layout_below="@+id/llsignup"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@id/cbTC"/>
+
+    <Button
+
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvterms"
+        android:id="@+id/btnSignUps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:enabled="false"
+        android:background="@drawable/button_signin"
+        android:text="Sign Up"/>
+    
+
+</RelativeLayout>

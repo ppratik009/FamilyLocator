@@ -1,0 +1,19 @@
+#Mon Feb 26 12:18:54 CST 2018
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.5=C\:\\Users\\pprat\\Downloads\\Family Locator\\LocationTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\22
+base.4=C\:\\Users\\pprat\\Downloads\\Family Locator\\LocationTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\21
+base.3=C\:\\Users\\pprat\\Downloads\\Family Locator\\LocationTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\20
+base.2=C\:\\Users\\pprat\\Downloads\\Family Locator\\LocationTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+base.1=C\:\\Users\\pprat\\Downloads\\Family Locator\\LocationTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\24
+base.0=C\:\\Users\\pprat\\Downloads\\Family Locator\\LocationTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\23
+file.5=C\:\\Users\\pprat\\Downloads\\Family Locator\\LocationTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\22\\classes.dex
+file.4=C\:\\Users\\pprat\\Downloads\\Family Locator\\LocationTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\21\\classes.dex
+file.3=C\:\\Users\\pprat\\Downloads\\Family Locator\\LocationTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\20\\classes.dex
+file.2=C\:\\Users\\pprat\\Downloads\\Family Locator\\LocationTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19\\classes.dex
+file.1=C\:\\Users\\pprat\\Downloads\\Family Locator\\LocationTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\24\\classes.dex
+file.0=C\:\\Users\\pprat\\Downloads\\Family Locator\\LocationTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\23\\classes.dex

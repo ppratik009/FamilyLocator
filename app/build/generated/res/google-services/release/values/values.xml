@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">340874000622-mucvr26n064jh145v2agf2me76s79aet.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://rapidtracker-7dd5c.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">340874000622</string>
+    <string name="google_api_key" translatable="false">AIzaSyC5k711fzgSWTwiK-DVDzax5v4j5Ly63Vg</string>
+    <string name="google_app_id" translatable="false">1:340874000622:android:3c3325808df65b41</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC5k711fzgSWTwiK-DVDzax5v4j5Ly63Vg</string>
+    <string name="google_storage_bucket" translatable="false">rapidtracker-7dd5c.appspot.com</string>
+    <string name="project_id" translatable="false">rapidtracker-7dd5c</string>
+</resources>

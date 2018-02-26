@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abc.pprat.locator.InvitationFragment">
+
+    <RelativeLayout
+        android:padding="30dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/lljoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/etInvi1"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:enabled="false"
+                android:text="2"
+                android:maxLength="1"/>
+            <EditText
+                android:id="@+id/etInvi2"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="2"
+                android:enabled="false"
+                android:maxLength="1"/>
+            <EditText
+                android:id="@+id/etInvi3"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="4"
+                android:enabled="false"
+                android:maxLength="1"/>
+            <EditText
+                android:id="@+id/etInvi4"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="4"
+                android:enabled="false"
+                android:maxLength="1"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnInvite"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/lljoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="Send Invitation"
+            android:background="@drawable/button_signin"
+            />
+
+
+    </RelativeLayout>
+</FrameLayout>

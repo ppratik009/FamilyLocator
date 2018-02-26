@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    cardview:cardElevation="3dp"
+    cardview:cardCornerRadius="3dp"
+    android:layout_margin="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:id="@+id/llP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="7dp">
+
+            <ImageView
+                android:id="@+id/ivPImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/user_profile" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvPName"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/llP"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/llP"
+            android:text="Asad Mehran"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/llll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tvPName"
+            android:layout_below="@+id/tvPName"
+
+            android:padding="3dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/locationStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:textColor="@android:color/holo_green_light"
+                android:text="GPS Enabled"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
